@@ -3,5 +3,5 @@
 set -o errexit
 
 bundle install
-./bin/rake tailwindcss:build
+./bin/rails assets:precompile
 ./bin/rails rake assets:clean
